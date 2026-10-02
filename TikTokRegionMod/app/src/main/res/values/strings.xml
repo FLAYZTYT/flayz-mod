@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FLAYZ YOU</string>
+    <string name="welcome_title">FLAYZ YOU — Настройки Мода</string>
+    <string name="tg_channel_prompt">Для работы мода перейдите в наш официальный Telegram-канал:</string>
+    <string name="btn_open_tg">Открыть Telegram-канал</string>
+    <string name="select_region_title">Выберите регион для TikTok:</string>
+    <string name="enable_watermark_bypass">Разрешить скачивание без ограничений</string>
+    <string name="save_button">Сохранить и применить</string>
+    <string name="settings_saved">Настройки FLAYZ YOU успешно сохранены! Перезапустите TikTok.</string>
+    <string name="tg_required_toast">Пожалуйста, сначала откройте Telegram-канал проекта</string>
+</resources>

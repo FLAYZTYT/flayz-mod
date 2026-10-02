@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="xposed_scope">
+        <item>com.zhiliaoapp.musically</item>
+        <item>com.ss.android.ugc.trill</item>
+        <item>com.zhiliaoapp.musically.go</item>
+    </string-array>
+
+    <string-array name="available_regions">
+        <item>США (US) — 310260</item>
+        <item>Казахстан (KZ) — 40101</item>
+        <item>Беларусь (BY) — 25701</item>
+        <item>Германия (DE) — 26201</item>
+        <item>Великобритания (GB) — 23410</item>
+        <item>Турция (TR) — 28601</item>
+        <item>ОАЭ (AE) — 42402</item>
+    </string-array>
+
+    <string-array name="region_iso_codes">
+        <item>US</item>
+        <item>KZ</item>
+        <item>BY</item>
+        <item>DE</item>
+        <item>GB</item>
+        <item>TR</item>
+        <item>AE</item>
+    </string-array>
+
+    <string-array name="region_mcc_mnc">
+        <item>310260</item>
+        <item>40101</item>
+        <item>25701</item>
+        <item>26201</item>
+        <item>23410</item>
+        <item>28601</item>
+        <item>42402</item>
+    </string-array>
+</resources>
