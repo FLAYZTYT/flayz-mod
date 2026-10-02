@@ -29,7 +29,9 @@ jobs:
         ANDROID_HOME: /usr/local/lib/android/sdk
       run: |
         cd TikTokRegionMod
-        gradle assembleDebug --no-daemon
+        echo "android.useAndroidX=true" > gradle.properties
+        echo "android.nonTransitiveRClass=true" >> gradle.properties
+        gradle assembleDebug -Pandroid.useAndroidX=true --no-daemon
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
